@@ -9,6 +9,103 @@
 
 ## About
 
+<div align="center">
+
+**🚀 Software Engineer → Infrastructure Engineer → Available for Hire**
+
+</div>
+
+<details>
+<summary>📋 <strong>TL;DR Profile</strong></summary>
+
+```go
+type InfrastructureEngineer struct {
+    Name       string  // "infraturo"
+    Role       string  // "Infrastructure Engineer"
+    Since      int     // 2008 (16+ years)
+    Transition int     // 2016 (software → infrastructure)
+    Status     string  // "available_for_hire"
+    Location   string  // "remote"
+    
+    Environment struct {
+        OS       string // "linux"
+        Editor   string // "vim"
+        Terminal string // "foot + tmux + tiling-wm"
+        Shell    string // "bash/zsh"
+        Attitude string // "cli-over-gui"
+    }
+}
+```
+
+</details>
+
+<details>
+<summary>🛠️ <strong>Skills & Tech Stack</strong></summary>
+
+```go
+type Skills struct {
+    // Container Orchestration
+    Orchestration []string{
+        "kubernetes", "docker", "helm",
+    }
+    
+    // Infrastructure as Code
+    IaC []string{"terraform"}
+    
+    // Cloud Platforms
+    Cloud []string{"aws", "gcp", "azure"}
+    
+    // CI/CD & Automation
+    Automation []string{
+        "github-actions", "jenkins", "gitlab-ci",
+    }
+    
+    // Monitoring & Observability
+    Monitoring []string{
+        "prometheus", "grafana", "datadog",
+    }
+    
+    // Programming Languages
+    Languages []string{
+        "go", "python", "bash", "yaml",
+    }
+}
+```
+
+</details>
+
+<details>
+<summary>🎯 <strong>Current Focus & Philosophy</strong></summary>
+
+```go
+type Focus struct {
+    CurrentProjects []string{
+        "platform-engineering",
+        "developer-experience", 
+        "gitops-workflows",
+        "infrastructure-as-code",
+    }
+    
+    Philosophy []string{
+        "linux-is-life",
+        "vim-keybindings-everywhere",
+        "terminal-over-gui",
+        "automation-over-manual-processes",
+        "infrastructure-should-be-code",
+    }
+    
+    UniqueValue string // "Software engineering mindset 
+                      //  applied to infrastructure challenges"
+}
+```
+
+</details>
+
+<details>
+<summary>📁 <strong>Complete Implementation</strong></summary>
+
+<div style="overflow-x: auto;">
+
 ```go
 package main
 
@@ -64,7 +161,7 @@ func NewInfraturo() *InfrastructureEngineer {
             Editor:   "vim",                      // Because efficiency matters
             Terminal: "foot + tmux + tiling-wm",  // Peak productivity setup
             Shell:    "bash/zsh",                 // Home sweet home
-            Attitude: "keyboard-driven",          // Mouse is for quitters
+            Attitude: "cli-over-gui",             // Command line supremacy
         },
         
         Skills: Skills{
@@ -122,6 +219,9 @@ func main() {
     }
 }
 ```
+
+</div>
+</details>
 
 ## What I Do
 
