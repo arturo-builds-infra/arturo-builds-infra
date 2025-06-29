@@ -1,0 +1,117 @@
+<svg viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11111b;stop-opacity:0.98" />
+      <stop offset="100%" style="stop-color:#181825;stop-opacity:0.95" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Terminal background -->
+  <rect width="850" height="200" fill="url(#terminalBg)"/>
+  
+  <!-- Vim status line at bottom -->
+  <rect x="0" y="180" width="850" height="20" fill="#313244"/>
+  
+  <!-- Line numbers -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="12" fill="#6c7086">
+    <text x="8" y="20">  1</text>
+    <text x="8" y="35">  2</text>
+    <text x="8" y="50">  3</text>
+    <text x="8" y="65">  4</text>
+    <text x="8" y="80">  5</text>
+    <text x="8" y="95">  6</text>
+    <text x="8" y="110">  7</text>
+    <text x="8" y="125">  8</text>
+    <text x="8" y="140">  9</text>
+    <text x="8" y="155"> 10</text>
+    <text x="8" y="170"> 11</text>
+  </g>
+  
+  <!-- Code content -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="12">
+    <text x="40" y="20">
+      <tspan fill="#cba6f7">package</tspan>
+      <tspan fill="#cdd6f4"> main</tspan>
+    </text>
+    
+    <text x="40" y="50">
+      <tspan fill="#cba6f7">type</tspan>
+      <tspan fill="#89b4fa"> InfrastructureEngineer</tspan>
+      <tspan fill="#cba6f7"> struct</tspan>
+      <tspan fill="#cdd6f4"> {</tspan>
+    </text>
+    
+    <text x="56" y="65">
+      <tspan fill="#74c7ec">Name</tspan>
+      <tspan fill="#cdd6f4">         </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+      <tspan fill="#6c7086"> // "infraturo"</tspan>
+    </text>
+    
+    <text x="56" y="80">
+      <tspan fill="#74c7ec">Role</tspan>
+      <tspan fill="#cdd6f4">         </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+      <tspan fill="#6c7086"> // "Infrastructure Engineer"</tspan>
+    </text>
+    
+    <text x="56" y="95">
+      <tspan fill="#74c7ec">Since</tspan>
+      <tspan fill="#cdd6f4">        </tspan>
+      <tspan fill="#a6e3a1">int</tspan>
+      <tspan fill="#6c7086">    // 2008</tspan>
+    </text>
+    
+    <text x="56" y="110">
+      <tspan fill="#74c7ec">Background</tspan>
+      <tspan fill="#cdd6f4">  </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+      <tspan fill="#6c7086"> // "software-to-ops"</tspan>
+    </text>
+    
+    <text x="56" y="125">
+      <tspan fill="#74c7ec">Status</tspan>
+      <tspan fill="#cdd6f4">      </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+      <tspan fill="#6c7086"> // "available_for_hire"</tspan>
+    </text>
+    
+    <text x="56" y="140">
+      <tspan fill="#74c7ec">Skills</tspan>
+      <tspan fill="#cdd6f4">      </tspan>
+      <tspan fill="#89b4fa">[]string</tspan>
+      <tspan fill="#6c7086"> // k8s, terraform, go...</tspan>
+    </text>
+    
+    <text x="40" y="155">
+      <tspan fill="#cdd6f4">}</tspan>
+    </text>
+    
+    <!-- Simple comment line -->
+    <text x="40" y="170">
+      <tspan fill="#6c7086">// Building cloud-native infrastructure</tspan>
+    </text>
+  </g>
+  
+  <!-- Simple blinking cursor -->
+  <rect x="320" y="158" width="2" height="14" fill="#f5c2e7">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Status line -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="11" fill="#cdd6f4">
+    <text x="8" y="194">
+      <tspan fill="#a6e3a1">NORMAL</tspan>
+      <tspan fill="#6c7086"> | </tspan>
+      <tspan fill="#cdd6f4">infraturo.go</tspan>
+      <tspan fill="#6c7086"> | </tspan>
+      <tspan fill="#fab387">+</tspan>
+    </text>
+    
+    <text x="800" y="194" text-anchor="end">
+      <tspan fill="#6c7086">Go | </tspan>
+      <tspan fill="#89b4fa">available_for_hire</tspan>
+      <tspan fill="#6c7086"> | 11,35</tspan>
+    </text>
+  </g>
+</svg>
