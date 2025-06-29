@@ -1,0 +1,135 @@
+<svg viewBox="0 0 400 390" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminalBgMobile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11111b;stop-opacity:0.98" />
+      <stop offset="100%" style="stop-color:#181825;stop-opacity:0.95" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Terminal background -->
+  <rect width="400" height="390" fill="url(#terminalBgMobile)"/>
+  
+  <!-- Vim status line at bottom -->
+  <rect x="0" y="370" width="400" height="20" fill="#313244"/>
+  
+  <!-- Line numbers -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="11" fill="#6c7086">
+    <text x="8" y="20">  1</text>
+    <text x="8" y="40">  2</text>
+    <text x="8" y="60">  3</text>
+    <text x="8" y="80">  4</text>
+    <text x="8" y="100">  5</text>
+    <text x="8" y="120">  6</text>
+    <text x="8" y="140">  7</text>
+    <text x="8" y="160">  8</text>
+    <text x="8" y="180">  9</text>
+    <text x="8" y="200"> 10</text>
+    <text x="8" y="220"> 11</text>
+    <text x="8" y="240"> 12</text>
+    <text x="8" y="260"> 13</text>
+    <text x="8" y="280"> 14</text>
+    <text x="8" y="300"> 15</text>
+    <text x="8" y="320"> 16</text>
+    <text x="8" y="340"> 17</text>
+    <text x="8" y="360"> 18</text>
+  </g>
+  
+  <!-- Code content - reformatted for mobile -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="11">
+    <text x="35" y="20">
+      <tspan fill="#cba6f7">package</tspan>
+      <tspan fill="#cdd6f4"> main</tspan>
+    </text>
+    
+    <text x="35" y="60">
+      <tspan fill="#cba6f7">type</tspan>
+      <tspan fill="#89b4fa"> InfrastructureEngineer</tspan>
+    </text>
+    <text x="35" y="80">
+      <tspan fill="#cba6f7">struct</tspan>
+      <tspan fill="#cdd6f4"> {</tspan>
+    </text>
+    
+    <text x="50" y="100">
+      <tspan fill="#74c7ec">Name</tspan>
+      <tspan fill="#cdd6f4">   </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+    </text>
+    <text x="50" y="115">
+      <tspan fill="#6c7086">// "infraturo"</tspan>
+    </text>
+    
+    <text x="50" y="140">
+      <tspan fill="#74c7ec">Role</tspan>
+      <tspan fill="#cdd6f4">   </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+    </text>
+    <text x="50" y="155">
+      <tspan fill="#6c7086">// "Infrastructure Engineer"</tspan>
+    </text>
+    
+    <text x="50" y="180">
+      <tspan fill="#74c7ec">Since</tspan>
+      <tspan fill="#cdd6f4">  </tspan>
+      <tspan fill="#a6e3a1">int</tspan>
+      <tspan fill="#6c7086"> // 2008</tspan>
+    </text>
+    
+    <text x="50" y="200">
+      <tspan fill="#74c7ec">Background</tspan>
+      <tspan fill="#cdd6f4"> </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+    </text>
+    <text x="50" y="215">
+      <tspan fill="#6c7086">// "software-to-ops"</tspan>
+    </text>
+    
+    <text x="50" y="240">
+      <tspan fill="#74c7ec">Status</tspan>
+      <tspan fill="#cdd6f4"> </tspan>
+      <tspan fill="#a6e3a1">string</tspan>
+    </text>
+    <text x="50" y="255">
+      <tspan fill="#6c7086">// "available_for_hire"</tspan>
+    </text>
+    
+    <text x="50" y="280">
+      <tspan fill="#74c7ec">Skills</tspan>
+      <tspan fill="#cdd6f4"> </tspan>
+      <tspan fill="#89b4fa">[]string</tspan>
+    </text>
+    <text x="50" y="295">
+      <tspan fill="#6c7086">// k8s, terraform, go...</tspan>
+    </text>
+    
+    <text x="35" y="315">
+      <tspan fill="#cdd6f4">}</tspan>
+    </text>
+    
+    <!-- Building cloud-native comment -->
+    <text x="35" y="335">
+      <tspan fill="#6c7086">// Building cloud-native</tspan>
+    </text>
+    <text x="35" y="350">
+      <tspan fill="#6c7086">// infrastructure</tspan>
+    </text>
+  </g>
+  
+  <!-- Simple blinking cursor -->
+  <rect x="230" y="340" width="2" height="12" fill="#f5c2e7">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Status line -->
+  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="10" fill="#cdd6f4">
+    <text x="8" y="384">
+      <tspan fill="#a6e3a1">NORMAL</tspan>
+      <tspan fill="#6c7086"> | </tspan>
+      <tspan fill="#cdd6f4">infraturo.go</tspan>
+    </text>
+    
+    <text x="390" y="384" text-anchor="end">
+      <tspan fill="#89b4fa">available_for_hire</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,10 +1,11 @@
 # Infrastructure Engineer
 
-<div align="center">
-
-![infraturo](./assets/vim_editor.svg)
-
-</div>
+<!-- Responsive terminal display -->
+<picture>
+  <source media="(min-width: 768px)" srcset="./assets/vim_editor_desktop.svg">
+  <source media="(max-width: 767px)" srcset="./assets/vim_editor_mobile.svg">
+  <img alt="Infrastructure Engineer Terminal" src="./assets/vim_editor_desktop.svg" width="100%">
+</picture>
 
 ## About
 
