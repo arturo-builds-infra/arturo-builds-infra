@@ -169,6 +169,6 @@ Because great infrastructure starts with a great development environment:
 
 **Let's build something amazing together**
 
-[🐙 GitHub](https://github.com/arturo-builds-infra) • [💼 LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/) • [🦊 GitLab](https://gitlab.com/wd2nf8gqct)
+[🐙 GitHub](https://github.com/arturo-builds-infra) • [💼 LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/)
 
 </div>
