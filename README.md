@@ -192,6 +192,7 @@ func NewInfraturo() *InfrastructureEngineer {
             "gitlab.com/wd2nf8gqct/dotfiles.bootstrap", // Machine bootstrap
             "gitlab.com/wd2nf8gqct/dotfiles.core",      // Core system configs
             "gitlab.com/wd2nf8gqct/dotfiles.di",        // Desktop integration
+            "gitlab.com/wd2nf8gqct/dotfiles.nix",       // NixOS configuration
         },
     }
 }
@@ -256,7 +257,8 @@ A fully reproducible environment treated like infrastructure — versioned, auto
 
 **[Bootstrap](https://gitlab.com/wd2nf8gqct/dotfiles.bootstrap)** - Provisions a new machine from scratch: package installation, system defaults, and dotfile wiring  
 **[Core Configs](https://gitlab.com/wd2nf8gqct/dotfiles.core)** - Shell setup, editor config, and the utilities that make a terminal feel like home  
-**[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager, terminal, and desktop environment configuration
+**[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager, terminal, and desktop environment configuration  
+**[NixOS](https://gitlab.com/wd2nf8gqct/dotfiles.nix)** - NixOS flake configuration for declarative, reproducible system and home management
 
 ## Currently
 
