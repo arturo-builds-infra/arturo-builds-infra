@@ -313,7 +313,7 @@ A fully reproducible environment treated like infrastructure — versioned, auto
 
 **Exploring**: Platform engineering, developer experience improvements  
 **Status**: Available for consulting and full-time opportunities  
-**Location**: Remote-first  
+**Location**: Remote-first, Washington DC Area  
 
 ---
 
