@@ -43,6 +43,7 @@ type InfrastructureEngineer struct {
 <summary><strong>Resume</strong></summary>
 
 <!-- RESUME_START -->
+<br>
 
 **PROFESSIONAL SUMMARY**
 
