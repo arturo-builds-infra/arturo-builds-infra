@@ -19,7 +19,14 @@ jobs:
           import re
 
           with open('assets/arturo-builds-infra-resume.md', 'r') as f:
-              resume = f.read().strip()
+              lines = f.read().splitlines()
+
+          # Strip header block (name, contact) before first **PROFESSIONAL section
+          start = next(
+              (i for i, l in enumerate(lines) if l.startswith('**PROFESSIONAL')),
+              0
+          )
+          resume = '\n'.join(lines[start:]).strip()
 
           with open('README.md', 'r') as f:
               readme = f.read()
