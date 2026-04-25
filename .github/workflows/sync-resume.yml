@@ -6,7 +6,7 @@ on:
     paths: [assets/arturo-builds-infra-resume.md]
 
 jobs:
-  sync:
+  sync-resume:
     runs-on: ubuntu-latest
     permissions:
       contents: write
