@@ -11,12 +11,12 @@
 
 <div align="center">
 
-**🚀 Software Engineer → Infrastructure Engineer → Available for Hire**
+**Software Engineer → Infrastructure Engineer → Available for Hire**
 
 </div>
 
 <details>
-<summary>📋 <strong>TL;DR Profile</strong></summary>
+<summary><strong>TL;DR Profile</strong></summary>
 
 ```go
 type InfrastructureEngineer struct {
@@ -40,7 +40,7 @@ type InfrastructureEngineer struct {
 </details>
 
 <details>
-<summary>🛠️ <strong>Skills & Tech Stack</strong></summary>
+<summary><strong>Skills & Tech Stack</strong></summary>
 
 ```go
 type Skills struct {
@@ -75,7 +75,7 @@ type Skills struct {
 </details>
 
 <details>
-<summary>🎯 <strong>Current Focus & Philosophy</strong></summary>
+<summary><strong>Current Focus & Philosophy</strong></summary>
 
 ```go
 type Focus struct {
@@ -102,7 +102,7 @@ type Focus struct {
 </details>
 
 <details>
-<summary>📁 <strong>Complete Implementation</strong></summary>
+<summary><strong>Complete Implementation</strong></summary>
 
 <div style="overflow-x: auto;">
 
@@ -215,7 +215,7 @@ func main() {
     fmt.Printf("// foot + tmux + tiling WM = peak productivity\n\n")
     
     if engineer.Status == "available_for_hire" {
-        fmt.Println("⚡ Ready for new challenges")
+        fmt.Println("Ready for new challenges")
     }
 }
 ```
@@ -225,11 +225,11 @@ func main() {
 
 ## What I Do
 
-🏗️ **Infrastructure as Code** - Everything versioned, reviewed, and deployed through code  
-☸️ **Kubernetes Orchestration** - Container workloads at scale  
-☁️ **Multi-Cloud Architecture** - AWS, GCP, Azure expertise  
-🔄 **GitOps Workflows** - Git as the single source of truth  
-📊 **Observability** - Prometheus, Grafana, and comprehensive monitoring  
+**Infrastructure as Code** - Everything versioned, reviewed, and deployed through code  
+**Kubernetes Orchestration** - Container workloads at scale  
+**Multi-Cloud Architecture** - AWS, GCP, Azure expertise  
+**GitOps Workflows** - Git as the single source of truth  
+**Observability** - Prometheus, Grafana, and comprehensive monitoring  
 
 ## My Journey
 
@@ -243,26 +243,26 @@ This unique perspective means I:
 
 ## Working Style
 
-🐧 **Linux Native** - Ubuntu, CentOS, Alpine... if it runs in production, I'm comfortable with it  
-⌨️ **Vim Enthusiast** - hjkl navigation is muscle memory. Can make do with Mac when required, but let's be real - we're infrastructure people working on Linux machines  
-🖥️ **foot + tmux + tiling WM** - Peak terminal productivity setup. Session persistence, window management, zero mouse dependency  
-🔧 **Keyboard Driven** - Why reach for a mouse when Super+hjkl gets you anywhere? Tiling window managers just make sense  
-💻 **CLI First** - If there's not a command-line tool for it, I'll probably write one  
+**Linux Native** - Ubuntu, CentOS, Alpine... if it runs in production, I'm comfortable with it  
+**Vim Enthusiast** - hjkl navigation is muscle memory. Can make do with Mac when required, but let's be real - we're infrastructure people working on Linux machines  
+**foot + tmux + tiling WM** - Peak terminal productivity setup. Session persistence, window management, zero mouse dependency  
+**Keyboard Driven** - Why reach for a mouse when Super+hjkl gets you anywhere? Tiling window managers just make sense  
+**CLI First** - If there's not a command-line tool for it, I'll probably write one  
 
 ## Dotfiles & Configs
 
 Because great infrastructure starts with a great development environment:
 
-⚙️ **[Core Configs](https://gitlab.com/wd2nf8gqct/dotfiles.core)** - Essential system configurations, shell setup, and core utilities  
-🖥️ **[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager configs, terminal setup, and desktop environment tweaks  
+**[Core Configs](https://gitlab.com/wd2nf8gqct/dotfiles.core)** - Essential system configurations, shell setup, and core utilities  
+**[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager configs, terminal setup, and desktop environment tweaks  
 
 *Everything version controlled, documented, and reproducible. Because your environment should be infrastructure too.*
 
 ## Currently
 
-🔍 **Exploring**: Platform engineering, developer experience improvements  
-💼 **Status**: Available for consulting and full-time opportunities  
-🌍 **Location**: Remote-first  
+**Exploring**: Platform engineering, developer experience improvements  
+**Status**: Available for consulting and full-time opportunities  
+**Location**: Remote-first  
 
 ---
 
@@ -270,6 +270,6 @@ Because great infrastructure starts with a great development environment:
 
 **Let's build something amazing together**
 
-[🐙 GitHub](https://github.com/arturo-builds-infra) • [💼 LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/)
+[GitHub](https://github.com/arturo-builds-infra) • [LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/)
 
 </div>
