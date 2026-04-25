@@ -189,8 +189,9 @@ func NewInfraturo() *InfrastructureEngineer {
         },
         
         Dotfiles: []string{
-            "gitlab.com/wd2nf8gqct/dotfiles.core", // Core system configs
-            "gitlab.com/wd2nf8gqct/dotfiles.di",   // Desktop integration
+            "gitlab.com/wd2nf8gqct/dotfiles.bootstrap", // Machine bootstrap
+            "gitlab.com/wd2nf8gqct/dotfiles.core",      // Core system configs
+            "gitlab.com/wd2nf8gqct/dotfiles.di",        // Desktop integration
         },
     }
 }
@@ -251,12 +252,11 @@ This unique perspective means I:
 
 ## Dotfiles & Configs
 
-Because great infrastructure starts with a great development environment:
+A fully reproducible environment treated like infrastructure — versioned, automated, and ready to deploy on a fresh machine.
 
-**[Core Configs](https://gitlab.com/wd2nf8gqct/dotfiles.core)** - Essential system configurations, shell setup, and core utilities  
-**[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager configs, terminal setup, and desktop environment tweaks  
-
-*Everything version controlled, documented, and reproducible. Because your environment should be infrastructure too.*
+**[Bootstrap](https://gitlab.com/wd2nf8gqct/dotfiles.bootstrap)** - Provisions a new machine from scratch: package installation, system defaults, and dotfile wiring  
+**[Core Configs](https://gitlab.com/wd2nf8gqct/dotfiles.core)** - Shell setup, editor config, and the utilities that make a terminal feel like home  
+**[Desktop Integration](https://gitlab.com/wd2nf8gqct/dotfiles.di)** - Window manager, terminal, and desktop environment configuration
 
 ## Currently
 
