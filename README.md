@@ -43,6 +43,7 @@ type InfrastructureEngineer struct {
 <summary><strong>Resume</strong></summary>
 
 <!-- RESUME_START -->
+
 **PROFESSIONAL SUMMARY**
 
 Senior Site Reliability & Infrastructure Engineer with 7+ years of experience building scalable, high-uptime cloud infrastructure. Proven track record in 24/7 production on-call environments, architecting automation frameworks, and eliminating operational overhead. Expert in AWS/GCP, Kubernetes, and GenAI-driven automation, with a deep focus on system reliability and incident response.
