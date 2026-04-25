@@ -1,4 +1,7 @@
-# Infrastructure Engineer
+<table width="100%"><tr>
+<td><h1>Infrastructure Engineer</h1></td>
+<td align="right"><a href="./assets/arturo-builds-infra-resume.pdf">Resume</a></td>
+</tr></table>
 
 <!-- Responsive terminal display -->
 <picture>
@@ -11,7 +14,7 @@
 
 <div align="center">
 
-**Software Engineer → Infrastructure Engineer → Available for Hire**
+**Software Engineer → Infrastructure Engineer → [Available for Hire](./assets/arturo-builds-infra-resume.pdf)**
 
 </div>
 
