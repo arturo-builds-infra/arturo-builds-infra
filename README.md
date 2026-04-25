@@ -272,6 +272,6 @@ A fully reproducible environment treated like infrastructure — versioned, auto
 
 **Let's build something amazing together**
 
-[GitHub](https://github.com/arturo-builds-infra) • [LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/)
+[GitHub](https://github.com/arturo-builds-infra) • [LinkedIn](https://www.linkedin.com/in/arturo-builds-infra/) • [Resume](./assets/arturo-builds-infra-resume.pdf)
 
 </div>
