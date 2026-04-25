@@ -1,5 +1,3 @@
-<div align="right"><a href="./assets/arturo-builds-infra-resume.pdf">Resume</a></div>
-
 # Infrastructure Engineer
 
 <!-- Responsive terminal display -->
@@ -16,6 +14,13 @@
 **Software Engineer → Infrastructure Engineer → [Available for Hire](./assets/arturo-builds-infra-resume.pdf)**
 
 </div>
+
+<details>
+<summary><strong>Resume</strong></summary>
+
+[View / Download Resume](./assets/arturo-builds-infra-resume.pdf)
+
+</details>
 
 <details>
 <summary><strong>TL;DR Profile</strong></summary>
