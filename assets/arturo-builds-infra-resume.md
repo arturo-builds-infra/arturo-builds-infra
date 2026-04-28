@@ -22,6 +22,7 @@ Senior Site Reliability & Infrastructure Engineer with 7+ years of experience bu
 * Built and maintained Terraform infrastructure-as-code modules for multi-cloud environments (AWS, GCP, Azure), enabling consistent provisioning patterns and reducing deployment errors across engineering teams  
 * Designed and implemented comprehensive observability stack using Prometheus, Loki, and Grafana for Kubernetes monitoring, providing real-time visibility into cluster health and application performance  
 * Developed CI/CD automation pipelines using GitHub Actions and Jenkins, streamlining deployment workflows and reducing time-to-production for infrastructure changes
+* Led and standardized team-wide documentation practices across Confluence, Backstage, and repo READMEs — authoring oncall runbooks, architectural diagrams, and platform guides to accelerate onboarding for dev teams and new hires — and integrated AssistAI to auto-route support requests to relevant documentation, reducing manual team interactions in the support channel by 80%
 
 **TECHNICAL SKILLS**
 
